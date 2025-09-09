@@ -1,1 +1,74 @@
-console.log('Happy developing ✨')
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>大数据分析平台</title>
+    <link rel="stylesheet" href="stystles.css"/>
+</head>
+<body>
+<div class="container">
+    <!-- 顶部操作栏 -->
+    <div class="header">
+        <div style="display:flex;align-items:center;gap:15px;">
+            <button id="uploadBtn" class="upload-btn" >上传表格文件</button>
+            <input id="fileInput" type="file" accept=".csv" hidden/>
+            <span class="format-hint">支持 .csv 格式</span>
+            <button id="openModalBtn" class="primary-btn">选择已有文件</button>
+            <button id="saveBtn" class="upload-btn">存入文件库</button>
+        </div>
+        <div>
+        <span class="format-hint">仅操作选中列名</span>
+        <input id="list_selected" type="checkbox">
+        <button id="downloadBtn" class="confirm-btn">生成csv文件</button>
+        <button id="confirmBtn" class="confirm-btn">生成pdf图</button>
+        </div>
+    </div>
+
+    <!-- 搜索栏 -->
+    <div class="search-bar">
+        <input id="searchInput" type="text" class="search-input" placeholder="请输入关键字搜索"/>
+    </div>
+
+    <!-- 时间筛选 -->
+    <div class="time-filter">
+        <div class="time-inputs">
+            <span>时间筛选：</span>
+            <input type="datetime-local" id="startTimeSelect" class="time-select">
+            <span>至</span>
+            <input type="datetime-local" id="endTimeSelect" class="time-select">
+        </div>
+        <div class="time-buttons">
+            <button id="filterBtn" class="filter-btn">应用筛选</button>
+            <button id="clearBtn" class="clear-time-btn">清除所有筛选</button>
+            <button id="moduleBtn" class="module-btn">选择模型</button>
+        </div>
+        <div>
+            <span class="format-hint">当前操作表格：</span>
+            <span id="currentFile" class="format-hint"></span>
+        </div>
+    </div>
+
+    <!-- 文件列表 -->
+    <div class="file-list">
+        <div class="list-header">
+            <div class="select-all">
+                <input type="checkbox" id="selectAll"/>
+                <span>全选</span>
+                <span id="selectedCount">已选择 0 项</span>
+            </div>
+            <button id="sortBtn" class="sort-btn">
+                排序 <span id="sortIcon">↑↓</span>
+            </button>
+        </div>
+        <div id="fileListContainer"></div>
+    </div>
+
+    <!-- 底部内容区域 -->
+    <div class="content-area" id="contentArea"></div>
+</div>
+
+<script type="module" src="main.js"></script>
+<script type="module" src="fileSelect.js"></script>
+</body>
+</html>
