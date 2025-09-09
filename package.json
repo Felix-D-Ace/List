@@ -1,10 +1,20 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "List",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx http-server -a 192.168.110.142 -p 8080",
+    "dev": "npx live-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -c jsdoc.json",
+    "docs:watch": "jsdoc -c jsdoc.json --watch",
+    "docs:clean": "rm -rf docs/ && npm run docs",
+    "docs:serve": "npx serve docs/",
+    "postdocs": "node fix-image-paths.js"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
+  }
 }
