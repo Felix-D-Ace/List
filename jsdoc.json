@@ -1,0 +1,18 @@
+{
+  "source": {
+    "include": [
+      "fileSelect.js",
+      "dify.js",
+      "main.js"
+    ],
+    "exclude": [
+      "node_modules",
+      "docs"
+    ]
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": false,
+    "readme": "./README.md"
+  }
+}
