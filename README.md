@@ -16,19 +16,19 @@
 
 选择文件：
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps2-17563656983444.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps2-17563656983444.jpg)
 
 列名展示：
 
 
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps3-17563656983443.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps3-17563656983443.jpg)
 
 ### 2.1 **列名选择**
 
 上传表格之后，可以根据关键字搜索勾选你需要的列名，然后选取你需要展示的时间范围
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps4-17563656983431.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps4-17563656983431.jpg)
 
 ### **2.2 结果预览**
 
@@ -36,41 +36,41 @@
 
 
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps5-17563656983447.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps5-17563656983447.jpg)
 
 右上角可以点击下载下载该折线图，也可以选择折线图的排版形式
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps6-17563656983446.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps6-17563656983446.jpg)
 
 ### **2.3 结果文件下载**
 
-返回首页点击下载csv文件，就可以下载只有选中列名和时间范围的新表格文件![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps7-17563656983445.jpg)
+返回首页点击下载csv文件，就可以下载只有选中列名和时间范围的新表格文件![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps7-17563656983445.jpg)
 
 ### **3 选择模型**
 
 该工具提供了选择模型选项，表格可通过模型处理变成新的表格，点击“选择模型”即可进入模型处理界面，左下角有对模型的说明，右边可以改写参数值，右下角有“预览pdf”和“提交”两个按钮
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps8-17563656983448.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps8-17563656983448.jpg)
 
 ### **3.0.1 预览**
 
 点击“预览pdf后，会自动跳转到新的页面查看经模型处理后的表格折线变化图
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps9-17563656983449.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps9-17563656983449.jpg)
 
 ### **3.0.2 提交**
 
 从预览看到处理已经符合自己的要求，便可点击“提交”对表格进行处理，处理后会自动退出并更新首页列名，此时可以点击“存入文件库”将当前经过模型处理新生成的表格数据存入文件库
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps10-175636569834410.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps10-175636569834410.jpg)
 
 更新后的表格：
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps11.jpg)当前文件名为：B称重皮带给料机流量等2列数据_pm3.020250828105834_17221010_df_drop_Nsigmab5ee628a-8891-432d-8930-880b2878f010.csv
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps11.jpg)当前文件名为：B称重皮带给料机流量等2列数据_pm3.020250828105834_17221010_df_drop_Nsigmab5ee628a-8891-432d-8930-880b2878f010.csv
 
 点击存入文件：
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps12.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps12.jpg)
 
 
 
@@ -78,7 +78,7 @@
 
 该模型的界面如图所示
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps13.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps13.jpg)
 
 在右侧可以看到该模型有一个参数N，默认值为6，
 
@@ -92,7 +92,7 @@
 
 该模型的界面如图所示
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps14.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps14.jpg)
 
 该模型是...
 
@@ -106,7 +106,7 @@
 
 该模型的界面如图所示
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps15.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps15.jpg)
 
 该模型是...
 
@@ -122,7 +122,7 @@
 
 
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps16.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps16.jpg)
 
 该模型是...
 
@@ -136,8 +136,9 @@
 
 该模型的界面如图所示
 
-![img](https://github.com/Felix-D-Ace/List/blob/master/images\wps17.jpg)
+![img](https://github.com/Felix-D-Ace/List/blob/master/images/wps17.jpg)
 
 可以看到该模型右侧没有参数，同时右下角的“提交”按钮变成了“下载报表”，是因为该模型用于...
+
 
 
